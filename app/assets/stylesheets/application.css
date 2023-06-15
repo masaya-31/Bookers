@@ -22,7 +22,7 @@ body {
   line-height: 18px;
 }
 
-p,td {
+p, td, ul {
   margin: 33px;
 }
 
@@ -40,15 +40,36 @@ th {
 }
 
 td {
-  padding: 0 5px 5px 5px;
+  padding: 0 10px 10px 5px;
+}
+
+label {
+  display: block;
 }
 
 .field, .btn {
   margin-bottom: 10px;
 }
 
-label {
-  display: block;
+#error_explanation {
+  width: 450px;
+  border: 2px solid red;
+  padding: 7px 7px 0;
+  margin-bottom: 20px;
+  background-color: whitesmoke;
+}
+
+#error_explanation h4 {
+  padding: 5px 15px;
+  margin: -7px -7px;
+  background-color: #c00;
+  color: white;
+}
+
+.field_with_errors {
+  padding: 2px;
+  background-color: red;
+  display: table;
 }
 
 .flash {
